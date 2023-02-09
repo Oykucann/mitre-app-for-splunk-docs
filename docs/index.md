@@ -12,3 +12,7 @@ title: Overview
 
 ### Saved Searches
 --8<-- "savedsearches.md"
+
+### Quick Links
+
+--8<-- "overview_cards.md"
