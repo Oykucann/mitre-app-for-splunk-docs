@@ -12,7 +12,7 @@ theme:
   # features:
   #   - header.autohide
   logo: assets/img/seynur_logo.png
-  favicon: assets/img/seynur_logo.png
+  favicon: assets/img/seynur_logo.ico
 
 extra_css:
   - assets/css/extra.css
