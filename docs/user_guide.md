@@ -10,8 +10,8 @@ This guide will provide description for the views that comes with this applicati
 * [MITRE ATT&CK Matrix View](#mitre-attck-matrix-view)
 * [MITRE ATT&CK Triggered Tactics & Techniques View](#mitre-attck-triggered-tactics--techniques-view)
 * [How To Match a Correlation Search with Framework](#how-to-match-a-correlation-search-with-framework)
-  - [Match with Analytic Story](#match-with-analytic-story)
-  - [Match with Lookup](#match-with-lookup)
+    - [Match with Analytic Story](#match-with-analytic-story)
+    - [Match with Lookup](#match-with-lookup)
 
 ### MITRE ATT&CK Compliance with Splunk ES View
 Each cell containing a technique is colored based on the percentage of enabled correlation searches.
@@ -21,6 +21,7 @@ If there isn't any related correlation searches, the cell is left uncolored.
 If there are available correlation searches within Enterprise Security (and ESCU), then cells are colored based on percentage of enabled/active ones.
 
 Currently the ranges are set as follows:
+
 * low: 0-30% enabled
 * medium: 30-50% enabled
 * high: 70%+ enabled
@@ -49,17 +50,14 @@ For example, if we want the *Correlation Search* "**Brute Force Access Behavior 
 1. Go to "**Configure --> Content --> Content Management**" from Enterprise Security Application menu.  Click on "**Create New Content**" and select "**Analytic Story**"
 
   ![analyticstory1]
-
 2. Enter a **Name** and fill other details as necessary for this analytic story.  Click on "**Add Search**" and select "**Brute Force Access Behavior Detected**"
 
   ![analyticstory2]
 
   ![analyticstory3]
-
 3. Enter ``detection`` for **Type** field and under **Annotations** enter ``mitre_attack`` for **Name** and ``Brute Force`` for **Mappings** (this should match the technique)
 
   ![analyticstory4]
-
 4. Click **Save** to save the *Analytic Story* with annotation and mapping with the defined correlation search.  You can add many correlation searches under one analytic story with defined mappings.
 
 Once saved, the correlation search will populate both the Compliance and Triggered Techniques dashboards.

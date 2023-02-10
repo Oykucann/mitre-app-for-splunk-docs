@@ -7,23 +7,23 @@ latest_version: 1.3.0
 ### Version 1.3.0
 **Release Date**: 09.01.2020
 
-#### What's New?
+**What's New?**
 
 | Description |
 | ------------------------
-| Updated ATT&CK Matrix dashboard
+|  Updated ATT&CK Matrix dashboard
 | Added new dashboard for detailed view of triggered rules by notable assets and tactics/techniques
 | Improved search performance and dependency on lookups
 | Added a new lookup to match correlation rules to MITRE ATT&CK tactics/techniques
 
-#### Known Issues
+**Known Issues**
 
 | Date Filed    | Issue Number      | Description |
 | ------------- | ----------------  | ----------------------       
 | N/A    | N/A          | -
 
 
-#### Fixed Issues
+**Fixed Issues**
 
 | Date Fixed    | Issue Number      | Description |
 | ------------- | ----------------  | ----------------------       
@@ -34,21 +34,21 @@ latest_version: 1.3.0
 ### Version 1.2.0
 **Release Date**: 24.08.2019
 
-#### What's New?
+**What's New?**
 
 | Description |
 | ------------------------
 | Bug fixes & typos
 | Sphinx documentation is added
 
-#### Known Issues
+**Known Issues**
 
 | Date Filed    | Issue Number      | Description |
 | ------------- | ----------------  | ----------------------       
 | N/A    | N/A          | -
 
 
-#### Fixed Issues
+**Fixed Issues**
 
 | Date Fixed    | Issue Number      | Description |
 | ------------- | ----------------  | ----------------------       
@@ -59,7 +59,7 @@ latest_version: 1.3.0
 ### Version 1.1.0
 **Release Date**: 06.08.2019
 
-#### What's New?
+**What's New?**
 
 | Description |
 | ------------------------
@@ -67,14 +67,14 @@ latest_version: 1.3.0
 | Added descriptions to dashboards
 | Added improvements for initial lookup generator
 
-#### Known Issues
+**Known Issues**
 
 | Date Filed    | Issue Number      | Description |
 | ------------- | ----------------  | ----------------------       
 | N/A    | N/A          | -
 
 
-#### Fixed Issues
+**Fixed Issues**
 
 | Date Fixed    | Issue Number      | Description |
 | ------------- | ----------------  | ----------------------       
@@ -85,21 +85,21 @@ latest_version: 1.3.0
 ### Version 1.0.0
 **Release Date**: 25.07.2019
 
-#### What's New?
+**What's New?**
 
 | Description |
 | ------------------------
 | Initial ### Version for Splunkbase
 | Test to run on 7.3.0 and ES App 5.3
 
-#### Known Issues
+**Known Issues**
 
 | Date Filed    | Issue Number      | Description |
 | ------------- | ----------------  | ----------------------       
 | N/A    | N/A          | -
 
 
-#### Fixed Issues
+**Fixed Issues**
 
 | Date Fixed    | Issue Number      | Description |
 | ------------- | ----------------  | ----------------------       
