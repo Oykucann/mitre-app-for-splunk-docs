@@ -13,7 +13,7 @@
     
     
       
-        <title>Release Notes - MITRE ATT&CK App for Splunk</title>
+        <title>Installation - MITRE ATT&CK App for Splunk</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#version-130" class="md-skip">
+        <a href="#initial-setup" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Release Notes
+              Installation
             
           </span>
         </div>
@@ -205,12 +205,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -231,11 +233,48 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../installation/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Installation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Installation
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#initial-setup" class="md-nav__link">
+    Initial Setup
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -268,14 +307,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
@@ -296,177 +333,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Release Notes
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../release_notes/" class="md-nav__link">
         Release Notes
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#version-130" class="md-nav__link">
-    Version 1.3.0
-  </a>
-  
-    <nav class="md-nav" aria-label="Version 1.3.0">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#whats-new" class="md-nav__link">
-    What's New?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#known-issues" class="md-nav__link">
-    Known Issues
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fixed-issues" class="md-nav__link">
-    Fixed Issues
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#version-120" class="md-nav__link">
-    Version 1.2.0
-  </a>
-  
-    <nav class="md-nav" aria-label="Version 1.2.0">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#whats-new_1" class="md-nav__link">
-    What's New?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#known-issues_1" class="md-nav__link">
-    Known Issues
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fixed-issues_1" class="md-nav__link">
-    Fixed Issues
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#version-110" class="md-nav__link">
-    Version 1.1.0
-  </a>
-  
-    <nav class="md-nav" aria-label="Version 1.1.0">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#whats-new_2" class="md-nav__link">
-    What's New?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#known-issues_2" class="md-nav__link">
-    Known Issues
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fixed-issues_2" class="md-nav__link">
-    Fixed Issues
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#version-100" class="md-nav__link">
-    Version 1.0.0
-  </a>
-  
-    <nav class="md-nav" aria-label="Version 1.0.0">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#whats-new_3" class="md-nav__link">
-    What's New?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#known-issues_3" class="md-nav__link">
-    Known Issues
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fixed-issues_3" class="md-nav__link">
-    Fixed Issues
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -503,138 +374,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#version-130" class="md-nav__link">
-    Version 1.3.0
+  <a href="#initial-setup" class="md-nav__link">
+    Initial Setup
   </a>
-  
-    <nav class="md-nav" aria-label="Version 1.3.0">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#whats-new" class="md-nav__link">
-    What's New?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#known-issues" class="md-nav__link">
-    Known Issues
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fixed-issues" class="md-nav__link">
-    Fixed Issues
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#version-120" class="md-nav__link">
-    Version 1.2.0
-  </a>
-  
-    <nav class="md-nav" aria-label="Version 1.2.0">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#whats-new_1" class="md-nav__link">
-    What's New?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#known-issues_1" class="md-nav__link">
-    Known Issues
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fixed-issues_1" class="md-nav__link">
-    Fixed Issues
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#version-110" class="md-nav__link">
-    Version 1.1.0
-  </a>
-  
-    <nav class="md-nav" aria-label="Version 1.1.0">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#whats-new_2" class="md-nav__link">
-    What's New?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#known-issues_2" class="md-nav__link">
-    Known Issues
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fixed-issues_2" class="md-nav__link">
-    Fixed Issues
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#version-100" class="md-nav__link">
-    Version 1.0.0
-  </a>
-  
-    <nav class="md-nav" aria-label="Version 1.0.0">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#whats-new_3" class="md-nav__link">
-    What's New?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#known-issues_3" class="md-nav__link">
-    Known Issues
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fixed-issues_3" class="md-nav__link">
-    Fixed Issues
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -652,235 +394,34 @@
                 
                   
 
-  <a href="https://github.com/seynur/DA-ESS-MitreContent/edit/master/docs/release_notes.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/seynur/DA-ESS-MitreContent/edit/master/docs/installation.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-  <h1>Release Notes</h1>
+  <h1>Installation</h1>
 
-<h3 id="version-130">Version 1.3.0</h3>
-<p><strong>Release Date</strong>: 09.01.2020</p>
-<h4 id="whats-new">What's New?</h4>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Updated ATT&amp;CK Matrix dashboard</td>
-</tr>
-<tr>
-<td>Added new dashboard for detailed view of triggered rules by notable assets and tactics/techniques</td>
-</tr>
-<tr>
-<td>Improved search performance and dependency on lookups</td>
-</tr>
-<tr>
-<td>Added a new lookup to match correlation rules to MITRE ATT&amp;CK tactics/techniques</td>
-</tr>
-</tbody>
-</table>
-<h4 id="known-issues">Known Issues</h4>
-<table>
-<thead>
-<tr>
-<th>Date Filed</th>
-<th>Issue Number</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>N/A</td>
-<td>N/A</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-<h4 id="fixed-issues">Fixed Issues</h4>
-<table>
-<thead>
-<tr>
-<th>Date Fixed</th>
-<th>Issue Number</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>N/A</td>
-<td>N/A</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="version-120">Version 1.2.0</h3>
-<p><strong>Release Date</strong>: 24.08.2019</p>
-<h4 id="whats-new_1">What's New?</h4>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bug fixes &amp; typos</td>
-</tr>
-<tr>
-<td>Sphinx documentation is added</td>
-</tr>
-</tbody>
-</table>
-<h4 id="known-issues_1">Known Issues</h4>
-<table>
-<thead>
-<tr>
-<th>Date Filed</th>
-<th>Issue Number</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>N/A</td>
-<td>N/A</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-<h4 id="fixed-issues_1">Fixed Issues</h4>
-<table>
-<thead>
-<tr>
-<th>Date Fixed</th>
-<th>Issue Number</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>N/A</td>
-<td>N/A</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="version-110">Version 1.1.0</h3>
-<p><strong>Release Date</strong>: 06.08.2019</p>
-<h4 id="whats-new_2">What's New?</h4>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bug fixes &amp; typos</td>
-</tr>
-<tr>
-<td>Added descriptions to dashboards</td>
-</tr>
-<tr>
-<td>Added improvements for initial lookup generator</td>
-</tr>
-</tbody>
-</table>
-<h4 id="known-issues_2">Known Issues</h4>
-<table>
-<thead>
-<tr>
-<th>Date Filed</th>
-<th>Issue Number</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>N/A</td>
-<td>N/A</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-<h4 id="fixed-issues_2">Fixed Issues</h4>
-<table>
-<thead>
-<tr>
-<th>Date Fixed</th>
-<th>Issue Number</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>N/A</td>
-<td>N/A</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="version-100">Version 1.0.0</h3>
-<p><strong>Release Date</strong>: 25.07.2019</p>
-<h4 id="whats-new_3">What's New?</h4>
-<table>
-<thead>
-<tr>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Initial ### Version for Splunkbase</td>
-</tr>
-<tr>
-<td>Test to run on 7.3.0 and ES App 5.3</td>
-</tr>
-</tbody>
-</table>
-<h4 id="known-issues_3">Known Issues</h4>
-<table>
-<thead>
-<tr>
-<th>Date Filed</th>
-<th>Issue Number</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>N/A</td>
-<td>N/A</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-<h4 id="fixed-issues_3">Fixed Issues</h4>
-<table>
-<thead>
-<tr>
-<th>Date Fixed</th>
-<th>Issue Number</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>N/A</td>
-<td>N/A</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
-<hr />
+<ol>
+<li>Download the latest AppInspect Passed version from: <a href="https://splunkbase.splunk.com/app/4617/">https://splunkbase.splunk.com/app/4617/</a>
+   For the latest changes and development efforts: <a href="https://github.com/seynur/DA-ESS-MitreContent/">https://github.com/seynur/DA-ESS-MitreContent/</a></li>
+<li>Install the application on Splunk Enterprise.  DA-ESS-MitreContent should be installed on the Search Head or Search Head Cluster where Enterprise Security Application resides.
+  For details on add-on installation please refer to <a href="https://docs.splunk.com/Documentation/AddOns/released/Overview/Installingadd-ons">Splunk Documentation</a></li>
+</ol>
+<h3 id="initial-setup">Initial Setup</h3>
+<p>Upon installation of the add-on, you may need to initially run a search to populate the lookup table.  The report simply checks for available (and enabled) Correlation Searches that are tagged for MITRE ATT&amp;CK techniques within the Analytic Stories.</p>
+<ol>
+<li>First, please check the table at the top named "<strong>MITRE ATT&amp;CK Compliance Lookup Gen Status</strong>" for lookup table status.</li>
+</ol>
+<p><img alt="mitreapp_setup1" src="../assets/img/mitreapp_setup1.png" /></p>
+<ol>
+<li>Click on the row if the lookup table appears to be empty.  This will open a new windows with the "<strong>Mitre Compliance Lookup Gen</strong>" report.  By default this scheduled report runs daily, at 0:00. Its time range is last 24 hours.  Click <strong>Open in Search</strong> button to run this report for the first time.</li>
+</ol>
+<p><img alt="mitreapp_setup1" src="../assets/img/mitreapp_setup1.png" /></p>
+<ol>
+<li>Once the search is completed, you can go back to "MITRE ATT&amp;CK Compliance with Splunk ES" dashboard to view the level of existing rules (enabled and available) in comparison to MITRE ATT&amp;CK techniques.</li>
+</ol>
+<p><img alt="mitreapp_setup3" src="../assets/img/mitreapp_setup3.png" /></p>
 
 
 
@@ -901,7 +442,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../user_guide/" class="md-footer__link md-footer__link--prev" aria-label="Previous: User Guide" rel="prev">
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -910,11 +451,26 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              User Guide
+              Overview
             </div>
           </div>
         </a>
       
+      
+        
+        <a href="../user_guide/" class="md-footer__link md-footer__link--next" aria-label="Next: User Guide" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              User Guide
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
