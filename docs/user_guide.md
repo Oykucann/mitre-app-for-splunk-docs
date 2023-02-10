@@ -53,7 +53,6 @@ For example, if we want the *Correlation Search* "**Brute Force Access Behavior 
 2. Enter a **Name** and fill other details as necessary for this analytic story.  Click on "**Add Search**" and select "**Brute Force Access Behavior Detected**"
 
   ![analyticstory2]
-
   ![analyticstory3]
 3. Enter ``detection`` for **Type** field and under **Annotations** enter ``mitre_attack`` for **Name** and ``Brute Force`` for **Mappings** (this should match the technique)
 
