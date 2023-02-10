@@ -5,7 +5,7 @@ latest_version: 2.0.0
 ---
 
 ### Version 2.0.0
-**Release Date**: 12.02.2020
+**Release Date**: 08.02.2020
 
 **What's New?**
 
