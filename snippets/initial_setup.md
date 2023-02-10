@@ -16,3 +16,6 @@ Upon initial installation you will be on Compliance Dashboard.  If the matrix is
 
    ![setup5](assets/img/setup5.png)
    ![setup6](assets/img/setup6.png)
+
+#### After Initial Installation
+After installation of the application you will be on Setup page.  Please enter the API Key if you have one or simply hit Save to continue.  Default view will be the Compliance Dashboard.  If the matrix is not populated, click on the table to run manually, which will direct you to the Lookup Generation dashboard (searches run automatically on that dashboard).
