@@ -1,7 +1,36 @@
 ---
 title: Release Notes
 layout: documentation
-latest_version: 1.3.0
+latest_version: 2.0.0
+---
+
+### Version 2.0.0
+**Release Date**: 08.02.2020
+
+#### What's New?
+
+| Description |
+| ------------------------       
+| Updated lookup tables to correctly define MITRE ATT&CK tactics and techniques
+| Introduced a new macro to utilize technique and tactic IDs/names
+| Updated dashboards to utilize new lookup table and macro
+| Performance improvements
+| Updated CSS and JS files
+| Introduced a setup view for ease of initial lookup generation
+
+#### Known Issues
+
+| Date Filed    | Issue Number      | Description |
+| ------------- | ----------------  | ----------------------       
+| N/A    | N/A          | -
+
+
+#### Fixed Issues
+
+| Date Fixed    | Issue Number      | Description |
+| ------------- | ----------------  | ----------------------       
+| N/A    | N/A	          | -
+
 ---
 
 ### Version 1.3.0
