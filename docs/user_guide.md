@@ -3,7 +3,6 @@ layout: default
 title: User Guide
 ---
 
-### User Guide
 This guide will provide description for the views that comes with this application and steps on how to create additional correlation searches.
 
 * [MITRE ATT&CK Compliance with Splunk ES View](#mitre-attck-compliance-with-splunk-es-view)
