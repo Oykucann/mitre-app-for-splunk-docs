@@ -40,7 +40,7 @@ nav:
   - Get Started:
     - installation.md
   - User Guide: user_guide.md
-  - 'About':
+  - About:
     - release_notes.md
 
 extra:
