@@ -75,19 +75,36 @@ For example, if we want the *Correlation Search* "**Brute Force Access Behavior 
 Once saved, the correlation search will populate both the Compliance and Triggered Techniques dashboards.
 
 #### Match with Lookup
-Each correlation rule is associated with 1 or more technique IDs.  For a given correlation rule you if you simply want to add the technique ID, then you'll need to edit ``mitre_user_rule_technique_lookup.csv``.  The scheduled searches combine this lookup along with analytic stories and checks against exisitng saved/correlation searches in order to create ``mitre_all_rule_technique_lookup.csv``, which is used within the app.
+Each correlation rule is associated with 1 or more technique IDs.  For a given correlation rule you if you simply want to add the technique ID(s), then you have 2 choices:
 
+1. Utilize **Map Rule to Technique** views
+
+      _OR_
+
+2. Edit ``mitre_user_rule_technique_lookup.csv`` directly.  
+
+----
+  __(1)__ Utilize **Map Rule to Technique** views
+
+  1. Go to   "**Configuration --> Map Rule to Technique**" from MITRE ATT&CK Framework App menu.  Initially it should appear something similar to following image.
+
+  ![map_rule_to_technique1]
+
+
+__(2)__ Edit ``mitre_user_rule_technique_lookup.csv`` directly.  
 You can edit the csv directly or utilize Lookup Editor app from web interface.
+
 
 ![lookup_editor1]
 
-The lookup file expects 3 fields:
+The lookup file expects 2 fields:
 
 * ``rule_name`` : The rule name as it appears in ``savedsearches.conf`` (e.g. "Access - Excessive Failed Logins - Rule")
-* ``rule_disabled`` : ``0`` or ``1`` to indicate status (``0`` meaning enabled rule)
-* ``technique_id`` : MITRE ATT&CK Technique ID (e.g. T1078 for Valid Accounts)
+* ``technique_id`` : MITRE ATT&CK Technique ID (e.g. T1078 for Valid Accounts) list separated by spaces
 
-**NOTE**: We are hoping to improve upon this manual process in the future releases.
+
+
+----
 
 
 [setup4]: assets/img/setup4.png
@@ -98,3 +115,5 @@ The lookup file expects 3 fields:
 [analyticstory3]: assets/img/analyticstory3.png
 [analyticstory4]: assets/img/analyticstory4.png
 [lookup_editor1]: assets/img/lookup_editor1.png
+[map_rule_to_technique1]: assets/img/map_rule_to_technique1.png
+[map_rule_to_technique2]: assets/img/map_rule_to_technique2.png
