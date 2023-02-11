@@ -84,14 +84,6 @@ There are 2 ways to accomplish this task.
 1. [Match with Analytic Story](#match-with-analytic-story): Enable a new or existing *Analytic Story* to be tagged with the relevant *Correlation Search*
 2. [Match with Lookup](#match-with-lookup): Edit the ``mitre_user_rule_technique_lookup.csv`` file.
 
-&nbsp;
-
-
----
-
-
-&nbsp;
-
 #### Match with Analytic Story
 The view in the application utilized *Analytic Stories* that are tagged with the *Correlation Searches*.  Hence, in order to associate a *Correlation Search* with MITRE ATT&CK Techniques, you will need to create a new *Analytic Story* and add your *Correlation Search* with the appropriate tags.
 
@@ -113,13 +105,7 @@ For example, if we want the *Correlation Search* "**Brute Force Access Behavior 
 
 Once saved, the correlation search will populate both the Compliance and Triggered Techniques dashboards.
 
-&nbsp;
 
-
----
-
-
-&nbsp;
 
 #### Match with Lookup
 Each correlation rule is associated with 1 or more technique IDs.  For a given correlation rule you if you simply want to add the technique ID, then you'll need to edit ``mitre_user_rule_technique_lookup.csv``.  The scheduled searches combine this lookup along with analytic stories and checks against exisitng saved/correlation searches in order to create ``mitre_all_rule_technique_lookup.csv``, which is used within the app.
