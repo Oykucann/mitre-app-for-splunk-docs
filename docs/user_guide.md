@@ -12,6 +12,14 @@ This guide will provide description for the views that comes with this applicati
     - [Match with Analytic Story](#match-with-analytic-story)
     - [Match with Lookup](#match-with-lookup)
 
+    &nbsp;
+
+
+    ---
+
+
+    &nbsp;
+
 ### MITRE ATT&CK Compliance with Splunk ES View
 Each cell containing a technique is colored based on the percentage of enabled correlation searches.
 
@@ -29,6 +37,13 @@ Currently the ranges are set as follows:
 You can mouse over to the cells that contain techniques in order to view the number of available and enabled correlation rules that are specific to that technique.
 ![setup4]
 
+&nbsp;
+
+
+---
+
+
+&nbsp;
 
 ### MITRE ATT&CK Matrix View
 This dashboard/form has filtering options based on "**Event Time Range**" and "**Urgency**" level of Notable Events.  It provides and overview of triggered techniques within MITRE ATT&CK Matrix colored according to the "**Urgency**" level of Notable Events.
@@ -36,6 +51,14 @@ This dashboard/form has filtering options based on "**Event Time Range**" and "*
 You can click on the triggered technique which provides the drill-down functionality and opens up Enterprise Security App **Incident Review** view for further analysis/investigation.
 
 ![triggered_techniques1]
+
+&nbsp;
+
+
+---
+
+
+&nbsp;
 
 ### MITRE ATT&CK Triggered Tactics & Techniques View
 This dashboard/form provides an overview of triggered rules based on MITRE ATT&CK Tactics and Notable assets/identities.  This is an effort to provide a better visibility for a notable asset/identity journey through MITRE ATT&CK Framework.  The number of triggered Notable Events according to MITRE ATT&CK techniques are aggregated by Notable Assets where ``notable_asset`` is populated by ``src``, ``dest`` or ``user`` from related Data Models.
@@ -47,6 +70,14 @@ Currently following panels are available:
 3. **Triggered Techniques by Tactic**: There's a separate panel for each MITRE ATT&CK Framework Tactic that shows details on triggered Technique, associated correlation rule name, and count of occurrences.
 
 ![triggered_techniques2]
+
+&nbsp;
+
+
+---
+
+
+&nbsp;
 
 ### How To Match a Correlation Search with Framework
 There are 2 ways to accomplish this task.
