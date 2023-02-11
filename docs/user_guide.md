@@ -5,13 +5,6 @@ title: User Guide
 
 This guide will provide description for the views that comes with this application and steps on how to create additional correlation searches.
 
-* [MITRE ATT&CK Compliance with Splunk ES View](#mitre-attck-compliance-with-splunk-es-view)
-* [MITRE ATT&CK Matrix View](#mitre-attck-matrix-view)
-* [MITRE ATT&CK Triggered Tactics & Techniques View](#mitre-attck-triggered-tactics--techniques-view)
-* [How To Match a Correlation Search with Framework](#how-to-match-a-correlation-search-with-framework)
-    - [Match with Analytic Story](#match-with-analytic-story)
-    - [Match with Lookup](#match-with-lookup)
-* [How to integrate with Alert Manager](#how-to-integrate-with-alert-manager)
 
 &nbsp;
 
