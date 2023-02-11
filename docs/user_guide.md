@@ -113,6 +113,7 @@ For example, if we want the *Correlation Search* "**Brute Force Access Behavior 
 
 Once saved, the correlation search will populate both the Compliance and Triggered Techniques dashboards.
 
+
 &nbsp;
 
 &nbsp;
