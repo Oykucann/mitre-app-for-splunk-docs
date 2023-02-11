@@ -27,7 +27,7 @@ Each cell containing a technique is colored based on the percentage of enabled c
 
 If there isn't any related correlation searches, the cell is left uncolored.
 
-If there are available correlation searches within Enterprise Security (and ESCU), then cells are colored based on percentage of enabled/active ones.
+If there are available correlation searches either within Enterprise Security (and ESCU) or as regular saved searches with matching MITRE ATT&CK techniques, then cells are colored based on percentage of enabled/active ones.
 
 Currently the ranges are set as follows:
 
@@ -68,6 +68,7 @@ You can click on the triggered technique which provides the drill-down functiona
 This dashboard/form provides an overview of triggered rules based on MITRE ATT&CK Tactics and Notable assets/identities.  This is an effort to provide a better visibility for a notable asset/identity journey through MITRE ATT&CK Framework.  The number of triggered Notable Events according to MITRE ATT&CK techniques are aggregated by Notable Assets where ``notable_asset`` is populated by ``src``, ``dest`` or ``user`` from related Data Models.
 
 Currently following panels are available:
+
 1. **Triggered Tactics by Notable Assets**: Shows an overview of number of triggered Notable Events according to MITRE ATT&CK tactics by Notable Assets.  This is provided in both Sankey Diagram and Table formats.
 2. **Triggered Tactics by Notable User**: Shows an overview of number of triggered Notable Events according to MITRE ATT&CK tactics by Notable User/Identity.  This is provided in both Sankey Diagram and Table formats.
 3. **Triggered Techniques by Tactic**: There's a separate panel for each MITRE ATT&CK Framework Tactic that shows details on triggered Technique, associated correlation rule name, and count of occurrences.
@@ -88,6 +89,7 @@ In order to view a saved/correlation search integrated with the MITRE ATT&amp;CK
 
 1. alert action (ES or Alert Manager) - triggered view TODO:
 2. associate rule with technique TODO:
+
 
 There are 2 ways to accomplish this task.
 
