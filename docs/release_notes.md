@@ -5,7 +5,7 @@ latest_version: 2.4.1
 ---
 
 ### Version 2.4.1
-**Release Date**: 08.01.2021
+**Release Date**: 08.11.2020
 
 **What's New?**
 
