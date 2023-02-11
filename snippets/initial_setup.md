@@ -18,7 +18,7 @@ Upon initial installation you will be on Compliance Dashboard.  If the matrix is
 6. MITRE ATT&CK Rule Finder view enables users to search for existing correlation rules based on technique names.  You can click on the desired rule for further configuration.
 
    ![setup5]
-
+   ![setup6]
 
 [setup0]: assets/img/setup0.png
 [setup1]: assets/img/setup1.png
