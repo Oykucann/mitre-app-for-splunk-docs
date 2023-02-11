@@ -12,6 +12,15 @@ This guide will provide description for the views that comes with this applicati
     - [Match with Analytic Story](#match-with-analytic-story)
     - [Match with Lookup](#match-with-lookup)
 
+    &nbsp;
+
+
+    ---
+
+
+    &nbsp;
+
+
 ### MITRE ATT&CK Compliance with Splunk ES View
 Each cell containing a technique is colored based on the percentage of enabled correlation searches.
 
@@ -28,6 +37,13 @@ Currently the ranges are set as follows:
 You can mouse over to the cells that contain techniques in order to view the number of available and enabled correlation rules that are specific to that technique.
 ![setup4]
 
+&nbsp;
+
+
+---
+
+
+&nbsp;
 
 ### MITRE ATT&CK Matrix View
 This dashboard/form has filtering options based on "**Event Time Range**" and "**Urgency**" level of Notable Events.  It provides and overview of triggered techniques within MITRE ATT&CK Matrix colored according to the "**Urgency**" level of Notable Events.
@@ -35,6 +51,14 @@ This dashboard/form has filtering options based on "**Event Time Range**" and "*
 You can click on the triggered technique which provides the drill-down functionality and opens up Enterprise Security App **Incident Review** view for further analysis/investigation.
 
 ![triggered_techniques1]
+
+&nbsp;
+
+
+---
+
+
+&nbsp;
 
 ### MITRE ATT&CK Triggered Tactics & Techniques View
 This dashboard/form provides an overview of triggered rules based on MITRE ATT&CK Tactics and Notable assets/identities.  This is an effort to provide a better visibility for a notable asset/identity journey through MITRE ATT&CK Framework.  The number of triggered Notable Events according to MITRE ATT&CK techniques are aggregated by Notable Assets where ``notable_asset`` is populated by ``src``, ``dest`` or ``user`` from related Data Models.
@@ -47,11 +71,27 @@ Currently following panels are available:
 
 ![triggered_techniques2]
 
+&nbsp;
+
+
+---
+
+
+&nbsp;
+
 ### How To Match a Correlation Search with Framework
 There are 2 ways to accomplish this task.
 
 1. [Match with Analytic Story](#match-with-analytic-story): Enable a new or existing *Analytic Story* to be tagged with the relevant *Correlation Search*
 2. [Match with Lookup](#match-with-lookup): Edit the ``mitre_user_rule_technique_lookup.csv`` file.
+
+&nbsp;
+
+
+---
+
+
+&nbsp;
 
 #### Match with Analytic Story
 The view in the application utilized *Analytic Stories* that are tagged with the *Correlation Searches*.  Hence, in order to associate a *Correlation Search* with MITRE ATT&CK Techniques, you will need to create a new *Analytic Story* and add your *Correlation Search* with the appropriate tags.
@@ -74,6 +114,14 @@ For example, if we want the *Correlation Search* "**Brute Force Access Behavior 
 
 Once saved, the correlation search will populate both the Compliance and Triggered Techniques dashboards.
 
+&nbsp;
+
+
+---
+
+
+&nbsp;
+
 #### Match with Lookup
 Each correlation rule is associated with 1 or more technique IDs.  For a given correlation rule you if you simply want to add the technique ID, then you'll need to edit ``mitre_user_rule_technique_lookup.csv``.  The scheduled searches combine this lookup along with analytic stories and checks against exisitng saved/correlation searches in order to create ``mitre_all_rule_technique_lookup.csv``, which is used within the app.
 
@@ -89,6 +137,7 @@ The lookup file expects 3 fields:
 
 **NOTE**: We are hoping to improve upon this manual process in the future releases.
 
+---
 
 [setup4]: assets/img/setup4.png
 [triggered_techniques1]: assets/img/triggered_techniques1.png
