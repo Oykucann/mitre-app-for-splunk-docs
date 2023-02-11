@@ -459,7 +459,8 @@
 <p>This application provides compliance and triage dashboards for MITRE ATT&amp;CK Framework with drill-down capabilities. It is recommended to utilize <a href="https://splunkbase.splunk.com/app/263/">Splunk Enterprise Security</a> and <a href="https://splunkbase.splunk.com/app/3449/">Splunk ES Content Update</a>; however, starting with version 2.3.0 non-ES deployments are also supported with <a href="https://splunkbase.splunk.com/app/2665/">Alert Manager</a> integration.</p>
 <hr />
 <h3 id="required-splunk-apps">Required Splunk Apps:</h3>
-<p>Starting with version 2.3.0, we added support for non-ES (Enterprise Security App) deployments as well. One of the following applications is required:</p>
+<p>Starting with version 2.3.0, we added ssupport for non-ES (Enterprise Security App) deployments as well.</p>
+<p>One of the following applications is required:</p>
 <ul>
 <li>
 <p><a href="https://splunkbase.splunk.com/app/263/">Splunk Enterprise Security</a> 5.2 or above</p>
@@ -473,23 +474,29 @@
 <ul>
 <li><a href="https://splunkbase.splunk.com/app/3112/">Sankey Diagram - Custom Visualization</a></li>
 </ul>
+<p>For use cases:</p>
+<ul>
+<li><a href="https://splunkbase.splunk.com/app/3449/">Splunk ES Content Update</a> 1.0.40 or above</li>
+</ul>
+<p>For data model searches:</p>
+<ul>
+<li><a href="https://splunkbase.splunk.com/app/1621/">Splunk Common Information Model (CIM)</a></li>
+</ul>
 <hr />
 <h3 id="recommended-splunk-apps">Recommended Splunk Apps:</h3>
 <ul>
-<li><a href="https://splunkbase.splunk.com/app/3449/">Splunk ES Content Update</a> 1.0.40 or above</li>
 <li><a href="https://splunkbase.splunk.com/app/1724/">Lookup File Editor</a></li>
 </ul>
-<p><strong>Note</strong>: Although the app will work without ES Content Update, it is highly recommended since it comes with many correlation rules that have mitre_attack annotations already.</p>
 <hr />
 <h3 id="setup-instructions">Setup Instructions</h3>
 <p>After installation of the application you will be on Setup page.  Please enter the API Key and Secret Key if you have a pair or simply hit Save to continue. Default view will be the Compliance Dashboard.  If the matrix is not populated, click on the table to run manually, which will direct you to the Lookup Generation dashboard (searches run automatically on that dashboard).</p>
 <p><strong>Note</strong>: If using Alert Manager app, you will need to uncheck <code>Use Enterprise Security App</code> checkbox within <strong>Setup</strong> view.</p>
 <hr />
 <h3 id="saved-searches">Saved Searches</h3>
-<p>This application comes with predefined saved searches.  Lookup Gen searches are scheduled to run  daily after midnight. The main ones that are used by views:</p>
+<p>This application comes with predefined saved searches.  Lookup Gen searches are scheduled to run  daily after midnight.</p>
 <ul>
 <li>
-<p><strong>MITRE ATT&amp;CK All Rules and Techniques Lookup Gen</strong>: This lookup generator checks currently enabled correlation rules via analytic stories and combines the searches with user-defined <code>mitre_user_rule_technique_lookup.csv</code> file that matches MITRE ATT&amp;CK technique IDs with rules.</p>
+<p><strong>MITRE ATT&amp;CK All Rules and Techniques Lookup Gen</strong>: This lookup generator checks currently enabled correlation rules via analytic stories and combines the searches with user-defined <code>mitre_user_rule_technique_lookup.csv</code> file that matches MITRE ATT&amp;CK technique/sub-technique IDs with rules.</p>
 </li>
 <li>
 <p><strong>MITRE ATT&amp;CK Compliance Lookup Gen</strong>: This lookup generator relies on <code>mitre_all_rule_technique_lookup.csv</code> in order to generate a new lookup to properly display MITRE ATT&amp;CK Compliance martix.</p>
