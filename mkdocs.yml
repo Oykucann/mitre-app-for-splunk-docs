@@ -1,4 +1,4 @@
-site_name: MITRE ATT&CK App for Splunk
+site_name: MITRE ATT&CK App for Splunk&reg;
 # Repository
 repo_name: seynur/DA-ESS-MitreContent
 repo_url: https://github.com/seynur/DA-ESS-MitreContent
@@ -50,7 +50,7 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/seynur
   generator: false
-  current_version: 1.2.0
+  current_version: 1.3.0
   version:
     provider: mike
 

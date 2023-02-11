@@ -13,6 +13,13 @@ This guide will provide description for the views that comes with this applicati
     - [Match with Analytic Story](#match-with-analytic-story)
     - [Match with Lookup](#match-with-lookup)
 
+&nbsp;
+
+
+---
+
+
+&nbsp;
 ### MITRE ATT&CK Compliance with Splunk ES View
 Each cell containing a technique is colored based on the percentage of enabled correlation searches.
 
@@ -29,6 +36,14 @@ Currently the ranges are set as follows:
 You can mouse over to the cells that contain techniques in order to view the number of available and enabled correlation rules that are specific to that technique.
   ![mitreapp_setup3]
 
+  &nbsp;
+
+
+  ---
+
+
+  &nbsp;
+
 ### MITRE ATT&CK Triggered Techniques
 This dashboard/form has filtering options based on "**Event Time Range**" and "**Urgency**" level of Notable Events.  Currently following panels are available:
 
@@ -40,6 +55,13 @@ This dashboard/form has filtering options based on "**Event Time Range**" and "*
 
   ![mitreapp_attack1]
 
+  &nbsp;
+
+
+  ---
+
+
+  &nbsp;
 ### How To Match a Correlation Search with Framework
 The view in the application utilized *Analytic Stories* that are tagged with the *Correlation Searches*.  Hence, in order to associate a *Correlation Search* with MITRE ATT&CK Techniques, you will need to create a new *Analytic Story* and add your *Correlation Search* with the appropriate tags.
 
@@ -60,6 +82,9 @@ For example, if we want the *Correlation Search* "**Brute Force Access Behavior 
 4. Click **Save** to save the *Analytic Story* with annotation and mapping with the defined correlation search.  You can add many correlation searches under one analytic story with defined mappings.
 
 Once saved, the correlation search will populate both the Compliance and Triggered Techniques dashboards.
+
+---
+
 
 [mitreapp_setup3]: assets/img/mitreapp_setup3.png
 [triggered_techniques1]: assets/img/triggered_techniques1.png
