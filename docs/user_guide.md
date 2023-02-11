@@ -12,6 +12,14 @@ This guide will provide description for the views that comes with this applicati
     - [Match with Analytic Story](#match-with-analytic-story)
     - [Match with Lookup](#match-with-lookup)
 
+    &nbsp;
+
+
+    ---
+
+
+    &nbsp;
+
 ### MITRE ATT&CK Compliance with Splunk ES View
 Each cell containing a technique is colored based on the percentage of enabled correlation searches.
 
@@ -28,6 +36,13 @@ Currently the ranges are set as follows:
 You can mouse over to the cells that contain techniques in order to view the number of available and enabled correlation rules that are specific to that technique.
 ![setup4]
 
+&nbsp;
+
+
+---
+
+
+&nbsp;
 
 ### MITRE ATT&CK Matrix View
 This dashboard/form has filtering options based on "**Event Time Range**" and "**Urgency**" level of Notable Events.  It provides and overview of triggered techniques within MITRE ATT&CK Matrix colored according to the "**Urgency**" level of Notable Events.
@@ -35,6 +50,14 @@ This dashboard/form has filtering options based on "**Event Time Range**" and "*
 You can click on the triggered technique which provides the drill-down functionality and opens up Enterprise Security App **Incident Review** view for further analysis/investigation.
 
 ![triggered_techniques1]
+
+&nbsp;
+
+
+---
+
+
+&nbsp;
 
 ### MITRE ATT&CK Triggered Tactics & Techniques View
 This dashboard/form provides an overview of triggered rules based on MITRE ATT&CK Tactics and Notable assets/identities.  This is an effort to provide a better visibility for a notable asset/identity journey through MITRE ATT&CK Framework.  The number of triggered Notable Events according to MITRE ATT&CK techniques are aggregated by Notable Assets where ``notable_asset`` is populated by ``src``, ``dest`` or ``user`` from related Data Models.
@@ -73,6 +96,7 @@ For example, if we want the *Correlation Search* "**Brute Force Access Behavior 
 4. Click **Save** to save the *Analytic Story* with annotation and mapping with the defined correlation search.  You can add many correlation searches under one analytic story with defined mappings.
 
 Once saved, the correlation search will populate both the Compliance and Triggered Techniques dashboards.
+
 
 #### Match with Lookup
 Each correlation rule is associated with 1 or more technique IDs.  For a given correlation rule you if you simply want to add the technique ID(s), then you have 2 choices:
