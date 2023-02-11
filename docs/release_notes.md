@@ -31,6 +31,33 @@ latest_version: 3.0.0
 
 ---
 
+### Version 2.4.1
+**Release Date**: 08.11.2020
+
+**What's New?**
+
+| Description   
+| --------------
+| Bug fixes
+
+**Known Issues**
+
+| Date Filed    | Issue Number      | Description |
+| ------------- | ----------------  | ----------------------       
+| N/A    | N/A          | -
+
+
+**Fixed Issues**
+
+| Date Fixed    | Issue Number      | Description |
+| ------------- | ----------------  | ----------------------       
+| N/A    | N/A	          | mitre_user_rule_technique_lookup.csv overwrites existing lookup during upgrades
+| N/A    | N/A	          | Missing mitre_api_rule_technique_lookup causes issues on fresh/new installations
+
+
+---
+
+
 ### Version 2.4.0
 **Release Date**: 30.10.2020
 
